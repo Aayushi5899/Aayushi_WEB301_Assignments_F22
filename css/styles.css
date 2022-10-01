@@ -2,3 +2,18 @@ html, body{
     margin: 0;
     padding: 0;
 }
+.header-image-desktop{
+    width: 900px;
+    height: 533px;
+    display: block;
+}	
+.header-image-mobile{
+    /*
+width: 400px;
+height: 266px;
+ratio: 400px:266px
+    */
+    width: 100vw;
+    height: calc(100vw * (266 / 400));
+    display: none;
+}	

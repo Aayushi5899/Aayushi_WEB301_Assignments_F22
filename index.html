@@ -9,5 +9,18 @@
   </head>
   <body>
     <script type="text/javascript" src="js/script.js"></script>
+    <!-- <div class="option1">
+        <h1>Swap image</h1>
+        <img
+          class="header-image-desktop" src="images/horizontal.jpg" alt="Flowers" />
+        <img
+          class="header-image-mobile" src="images/vertical.jpg" alt="Flowers" />
+      </div>
+    -->
+      <picture>
+        <source srcset="images/horizontal.jpg" media="(max-width: 700px)">
+        <source srcset="images/vertical.jpg" media="(max-width: 900px)">
+        <img src="images/vertical.jpg" alt="ice cream" />
+      </picture>
   </body>
 </html>
