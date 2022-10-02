@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+	font: 14px;
 }
 .header-image-desktop{
     width: 900px;
@@ -17,3 +18,8 @@ ratio: 400px:266px
     height: calc(100vw * (266 / 400));
     display: none;
 }	
+@media screen and (max-width: 700px){
+	p {
+		font-size: 12px;
+	}
+}
