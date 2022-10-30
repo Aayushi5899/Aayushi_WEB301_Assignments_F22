@@ -1,4 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 html, body{
     margin: 0;
     padding: 0;
+}
+@media screen and (max-width: 458px) {
+	[class*="col-"] {
+		width: 100%;
+		margin: 1% 0;
+		background-color: #d8d8d8;
+		border: none;
+	}
+body{
+	width: 940px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+}
+.row {
+	width: 100%;
+	margin: 0 auto;
 }
