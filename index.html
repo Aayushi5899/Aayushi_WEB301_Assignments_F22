@@ -13,15 +13,40 @@
 </head>
 
 <body>
-  <header>
-    <!-- Nav goes here -->
-  </header>
-  <main>
-    <!-- Content goes here -->
-  </main>
-  <footer>
-    <!-- Github link goes here -->
-  </footer>
+  <div class="container mt-2">
+	  	<h2>xyz form</h2>
+	  	<form method="post" data-toggle="modal" id="myForm" class="needs-validation" novalidate>
+		    <div class="mb-3 mt-3">
+		      	<label for="name">Name:</label>
+		     	<input type="name" class="form-control" id="name" placeholder="Enter name" name="name" required>
+		     	<div class="invalid-feedback">
+			       Please enter your Name to continue
+			    </div>
+		    </div>
+		    <div class="mb-3">
+		      	<label for="email">Email:</label>
+		      	<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+		      	<div class="invalid-feedback">
+			       Please enter your Email to continue
+			    </div>
+		    </div>
+		    <div class="mb-3">
+		      	<label for="buisness_name">Buisness name:</label>
+		      	<input type="name" class="form-control" id="buisness_name" placeholder="Enter buisness Name" name="buisness_name" required>
+		      	<div class="invalid-feedback">
+			       Please enter your Buisness name to continue
+			    </div>
+		    </div>
+		    <p>Buisness is:</p>
+		    <div class="form-check">
+		      	<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+		      	<label class="form-check-label" for="radio1">Profitable</label>
+		    </div>
+		    <div class="form-check">
+		      	<input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+		      	<label class="form-check-label" for="radio2">Non-Profitable</label>
+		    </div>
+		    <br>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 
